@@ -1,0 +1,38 @@
+Boulengerie
+
+chaque jour :  
+	-  1 acheter ingredients 
+	-  2 faire du pain (produit)
+	-  3 vendre le pain (produit)
+		- il a des clients 5min 10 max
+
+ingredients:
+	- flour 2€
+	- cheese 3€
+	- olives 5€
+	- eggs 4€
+	- baking powder 1€
+
+produits:
+	- bread 2€ (flour + baking powder)
+	- cheese cake 3€ (flour + cheese + eggs)
+	- olive cake 5€ (flour + cheese + olives + eggs + baking powder)
+
+il a de l'argent pour acheter les ingredients (nombre d'argent aléatoire chaque jour)
+il a une liste d'ingredients pour faire les produits
+il peut vendre 1 à 3 produit par personne
+
+class DayManager -> Acheter Produire Vendre(fonctions)
+
+class Ingredient -> nom quantité prix(fonctions), ingredients(objets)
+class Product -> nom quantité prix (fonctions), recettes des produits(fichier XML)
+class Player -> son argent qui peut gagner ou perdre(fonctions) 
+	choisir ces actions (fonctions)
+		choisir quel ingredient acheter
+		choisir quel produit faire
+		
+
+
+
+
+	
